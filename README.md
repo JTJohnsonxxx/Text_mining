@@ -2,7 +2,7 @@
 主要是紀錄網路爬蟲（ PTT & FB )的 script，以及關鍵字分群和文字雲等 text mining 探勘技術。
 因此只有 Master，沒有其他的 branches，多數為自己紀錄自己開發的專案
 
-1. Ptt_Crawler.ipynb: PTT爬蟲，從 open source 參考爬蟲後，改寫部分 for 研究使用。
+1. Ptt_Crawler.ipynb: PTT爬蟲，從 open source 參考爬蟲後，改寫部分 for 研究使用。\n
   A. 目的是讓非開發者可以自行爬取，因此拉出簡單的 UI 板塊，讓 User 只要輸入要爬取的「PTT 版名」、「要爬取的總頁數」、「開始爬得起始頁數」
   B. 包含自動翻頁、爬取間隔(0.05sec)防止被當做DDoS、benchmark等等功能
   C. 輸出包含：文章作者、內容、日期、回文數（含：總回文數、推文減噓文數、推文數、噓文數、中立回文數）、回文內容、文章標題
