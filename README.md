@@ -1,5 +1,5 @@
 # Web-crawler-Texting-mining
-主要是紀錄網路爬蟲（ PTT & FB )的 script，以及關鍵字分群和文字雲等 text mining 探勘技術。  
+主要是紀錄網路爬蟲（ PTT & FB )的 script，以及爬蟲後的斷詞與文字雲應用、關鍵字分群等 text mining 探勘技術。  
 因此只有 Master，沒有其他的 branches，多數為紀錄自己開發的專案  
 
 1. Ptt_Crawler.ipynb: PTT爬蟲，從 open source 參考爬蟲後，改寫部分 for 研究使用。  
