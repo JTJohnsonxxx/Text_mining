@@ -12,10 +12,11 @@
   B. 從發文的序列爬取，包含發文的回文，回文的回文等等。含自動翻頁、自動輸出csv等功能  
   C. 輸出包含：發文id、回文id、作者姓名、作者id、回文內容、回文時間  
   
-3. keywords_clustering1_userlist.ipynb: 關鍵字分群研究，為自行開發的專案。主要目的是探索外部搜尋關鍵字 與 Users 閱讀特定文章的行為關係  
+3. keywords_clutering_V0.1( normalize ).ipynb: 關鍵字分群研究，為自行開發的專案。主要目的是探索外部搜尋關鍵字 與 Users 閱讀特定文章的行為關係  
   流程包含： 從 local 載入資料、稀疏矩陣加速運算效率、EDA、numpy 轉陣列加速運算、sklearn kmeans 進行分群  
   
 4. wordcloud.ipynb: 文字雲輸出 for 台灣危險駕駛的性別研究，這邊僅紀錄 wordcloud、collections 的 Counter 用法  
   A. 簡單介紹這個研究的目的：從八卦版爬取三百篇文章內文包含女駕駛被評為三寶的文章，並把文章斷詞後找出詞頻製作出以「車」為意象的背景圖片，觀測論壇中多數回文者對女性駕駛的刻板印象  
   B. 後續從交通部拿到歷年台灣車禍紀錄的資料，發現從民國 93年至今107年的數據均顯示 A1類道路交通事故死亡人數，男性均顯著高於女性。（歷年平均 男性A1死亡佔總數約為 72%)  
+  ![image]("https://drive.google.com/file/d/1yaL9gMVI7_x6wCc4FSyQHuaQ5fEu1Q17/view?usp=sharing")
   C. 結論：男性危險駕駛反而更嚴重，不因針對特定性別貼上三寶標籤  
